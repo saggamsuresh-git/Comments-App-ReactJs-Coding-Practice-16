@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container {
+  margin: 30px;
+  width: 900px;
+  font-family: 'Roboto';
+}
+.input-section {
+  display: flex;
+  justify-content: space-between;
+}
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 260px;
+}
+.input {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #64748b;
+  padding: 8px;
+  outline: none;
+}
+.textarea {
+  outline: none;
+  height: 90px;
+  border-radius: 3px;
+  border: 1px solid #64748b;
+  padding: 8px;
+  font-family: 'Roboto';
+}
+.submit-btn {
+  height: 35px;
+  width: 140px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  background-color: #0284c7;
+  color: #dee0e3;
+}
+/* .separator {
+  width: 1px;
+  color: #475569;
+} */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.comment-count {
+  background-color: #0284c7;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .input-section {
+    flex-direction: column;
+  }
+  .image {
+    order: 0;
+  }
+  .comment-name {
+    order: 1;
+  }
+}

@@ -1,0 +1,71 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+}
+#profile-pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.name {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #475569;
+}
+.time-stamp {
+  color: #94a3b8;
+  font-size: 13px;
+}
+.comment {
+  margin-left: 45px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+#img {
+  margin-right: 10px;
+}
+.color {
+  color: #0b69ff;
+}
